@@ -1,0 +1,12 @@
+{
+  "total_questions": 30,
+  "completed_questions": 30,
+  "failed_or_pending_questions": 0,
+  "answerable_questions_completed": 25,
+  "unanswerable_questions_completed": 5,
+  "hit_at_1": 0.6,
+  "hit_at_4": 0.84,
+  "refusal_accuracy": 1.0,
+  "answer_correctness": "Pending human scoring (0-2)",
+  "citation_correctness": "Pending human scoring (0-1)"
+}

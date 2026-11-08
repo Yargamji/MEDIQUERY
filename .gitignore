@@ -1,0 +1,52 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Raw source documents and datasets
+data/raw/
+data/processed/
+*.pdf
+*.gz
+
+# Temporary and backup files
+*.log
+*.tmp
+*.bak
+*_backup.*
+*_previous.*
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editor settings
+.vscode/
+
+# Local development and diagnostic scripts
+test_gemini.py
+inspect_pages.py
+eval/check_m04.py
+eval/audit_gold_candidates.py
+eval/find_gold_chunks.py
+eval/gold_candidates.txt
+
+# Evaluation backups
+eval/results/*backup*
+eval/results/*previous*
+eval/results/*pre_refresh*

@@ -1,0 +1,423 @@
+[
+  {
+    "id": "S01",
+    "category": "single_passage",
+    "question": "What tablet strengths of albendazole are listed in the adult NEML?",
+    "answerable": true,
+    "gold_chunk_ids": [
+      41
+    ],
+    "gold_pages": [
+      14
+    ],
+    "expected_answer": "Albendazole is listed as an oral liquid at 100 mg/5 mL and tablets at 200 mg and 400 mg. The question asks specifically for tablets: 200 mg and 400 mg.",
+    "scoring_notes": "Full credit requires both tablet strengths and no unsupported strength."
+  },
+  {
+    "id": "S02",
+    "category": "single_passage",
+    "question": "According to the adult NEML AWaRe section, what capsule strengths of amoxicillin are listed?",
+    "answerable": true,
+    "gold_chunk_ids": [
+      42
+    ],
+    "gold_pages": [
+      14
+    ],
+    "expected_answer": "Amoxicillin capsules: 250 mg and 500 mg (trihydrate).",
+    "scoring_notes": "Must identify capsules and both strengths; do not confuse with amoxicillin plus clavulanic acid."
+  },
+  {
+    "id": "S03",
+    "category": "single_passage",
+    "question": "Which tablet strengths are listed for artesunate plus amodiaquine?",
+    "answerable": true,
+    "gold_chunk_ids": [
+      55
+    ],
+    "gold_pages": [
+      18
+    ],
+    "expected_answer": "25 mg + 67.5 mg; 50 mg + 135 mg; and 100 mg + 270 mg tablets.",
+    "scoring_notes": "All three combinations required for full credit."
+  },
+  {
+    "id": "S04",
+    "category": "single_passage",
+    "question": "What tablet strengths of ethambutol are included in the adult NEML?",
+    "answerable": true,
+    "gold_chunk_ids": [
+      63
+    ],
+    "gold_pages": [
+      19
+    ],
+    "expected_answer": "Ethambutol tablets: 100 mg, 275 mg and 400 mg.",
+    "scoring_notes": "All three strengths required."
+  },
+  {
+    "id": "S05",
+    "category": "single_passage",
+    "question": "What presentations of retinol are listed in the adult NEML?",
+    "answerable": true,
+    "gold_chunk_ids": [
+      224
+    ],
+    "gold_pages": [
+      50
+    ],
+    "expected_answer": "Capsules: 100,000 and 200,000 units (palmitate); oral oily solution: 100,000 units (palmitate)/mL in a multidose dispenser; sugar-coated tablets: 10,000 units (palmitate); water-miscible injection: 100,000 units (palmitate) in a 2-mL ampoule.",
+    "scoring_notes": "Award full credit for correctly identifying the listed dosage forms and strengths."
+  },
+  {
+    "id": "S06",
+    "category": "single_passage",
+    "question": "What metered-dose inhaler strength of salbutamol is listed?",
+    "answerable": true,
+    "gold_chunk_ids": [
+      155
+    ],
+    "gold_pages": [
+      38
+    ],
+    "expected_answer": "Salbutamol metered-dose inhaler (aerosol): 100 mcg (sulfate) per dose.",
+    "scoring_notes": "Must state 100 mcg sulfate per dose."
+  },
+  {
+    "id": "S07",
+    "category": "single_passage",
+    "question": "Which strengths of apixaban tablets are listed in the adult NEML?",
+    "answerable": true,
+    "gold_chunk_ids": [
+      160
+    ],
+    "gold_pages": [
+      38
+    ],
+    "expected_answer": "Apixaban tablets: 2.5 mg and 5 mg.",
+    "scoring_notes": "Both strengths required."
+  },
+  {
+    "id": "S08",
+    "category": "single_passage",
+    "question": "What is the stated osmolarity of the oral rehydration salt solution in the adult NEML?",
+    "answerable": true,
+    "gold_chunk_ids": [
+      125,
+      164
+    ],
+    "gold_pages": [
+      34,
+      39
+    ],
+    "expected_answer": "245 mOsm/L.",
+    "scoring_notes": "Must report 245 mOsm/L; do not substitute a value from another formulation."
+  },
+  {
+    "id": "S09",
+    "category": "single_passage",
+    "question": "How is cholera vaccine presented in the Primary Health Care list for health centres?",
+    "answerable": true,
+    "gold_chunk_ids": [
+      253
+    ],
+    "gold_pages": [
+      64
+    ],
+    "expected_answer": "Oral liquid: 1-dose vial.",
+    "scoring_notes": "Must state oral liquid and one-dose vial."
+  },
+  {
+    "id": "S10",
+    "category": "single_passage",
+    "question": "What chlorhexidine formulations are listed in the Primary Health Care list for health centres?",
+    "answerable": true,
+    "gold_chunk_ids": [
+      242
+    ],
+    "gold_pages": [
+      58
+    ],
+    "expected_answer": "Gel: 4% in a 25 g tube; solution: 5% (gluconate) for dilution.",
+    "scoring_notes": "Both gel and solution presentations required."
+  },
+  {
+    "id": "S11",
+    "category": "single_passage",
+    "question": "What paracetamol dosage forms and strengths are listed in the Primary Health Care list for health centres?",
+    "answerable": true,
+    "gold_chunk_ids": [
+      227
+    ],
+    "gold_pages": [
+      51
+    ],
+    "expected_answer": "Injection: 150 mg/mL; oral liquid: 125 mg/5 mL; suppository: 100 mg; tablets: 125 mg and 500 mg.",
+    "scoring_notes": "All four dosage forms and strengths expected."
+  },
+  {
+    "id": "S12",
+    "category": "single_passage",
+    "question": "What beclomethasone inhaler doses are listed in the Primary Health Care list for health centres?",
+    "answerable": true,
+    "gold_chunk_ids": [
+      254
+    ],
+    "gold_pages": [
+      65
+    ],
+    "expected_answer": "100 mcg per dose and 200 mcg per dose.",
+    "scoring_notes": "Both strengths required."
+  },
+  {
+    "id": "S13",
+    "category": "single_passage",
+    "question": "What strengths of ferrous salts are specified in the Primary Health Care list for health centres?",
+    "answerable": true,
+    "gold_chunk_ids": [
+      243
+    ],
+    "gold_pages": [
+      59
+    ],
+    "expected_answer": "Oral liquid equivalent to 25 mg iron (sulfate)/mL; tablet equivalent to 60 mg iron.",
+    "scoring_notes": "Must distinguish elemental iron equivalence and dosage form."
+  },
+  {
+    "id": "S14",
+    "category": "single_passage",
+    "question": "What strength is specified for the zinc effervescent tablet in the Primary Health Care list for health centres?",
+    "answerable": true,
+    "gold_chunk_ids": [
+      250
+    ],
+    "gold_pages": [
+      63
+    ],
+    "expected_answer": "Zinc sulfate monohydrate 125 mg.",
+    "scoring_notes": "This is from the PHC Health Centres list, not the main adult NEML. Preserve the source's wording; do not convert the salt strength."
+  },
+  {
+    "id": "S15",
+    "category": "single_passage",
+    "question": "What presentations of rabies vaccine are listed in the adult NEML?",
+    "answerable": true,
+    "gold_chunk_ids": [
+      152
+    ],
+    "gold_pages": [
+      37
+    ],
+    "expected_answer": "Lyophilized injection: 2.5 units/mL.",
+    "scoring_notes": "Must report lyophilized injection and 2.5 units/mL."
+  },
+  {
+    "id": "M01",
+    "category": "multi_passage",
+    "question": "Which antihypertensive medicines and formulations are listed in the main adult NEML section?",
+    "answerable": true,
+    "gold_chunk_ids": [
+      93
+    ],
+    "gold_pages": [
+      28
+    ],
+    "expected_answer": "The antihypertensive section spans the adult NEML pages 28–29 and includes alpha methyl-dopa, amiloride, amlodipine, amlodipine plus losartan, amiloride plus hydrochlorothiazide, hydrochlorothiazide, indapamide, labetalol, captopril, carvedilol, enalapril, hydralazine, losartan plus hydrochlorothiazide, methyldopa, nifedipine, propranolol, spironolactone, torsemide and valsartan, with formulations and strengths as specified in the source.",
+    "scoring_notes": "Score against source-supported medicines and formulations across both pages; do not require every item if the question is answered as a clearly scoped summary."
+  },
+  {
+    "id": "M02",
+    "category": "multi_passage",
+    "question": "Summarize the amoxicillin formulations listed across the adult NEML, the PHC lists, and the PPMV list, keeping the sections separate.",
+    "answerable": true,
+    "gold_chunk_ids": [
+      42,
+      236,
+      264,
+      276,
+      280
+    ],
+    "gold_pages": [
+      14,
+      54,
+      68,
+      73,
+      75
+    ],
+    "expected_answer": "Adult list: capsules 250 mg and 500 mg; powder for injection 250 mg, 500 mg and 1 g; powder for oral liquid 125 mg/5 mL and 250 mg/5 mL; tablets 250 mg and 500 mg; the separate page 54 entry also lists dispersible tablets with the stated trihydrate/potassium-salt combinations. PHC lists: page 68 includes capsules, dispersible tablets, powder for reconstitution and powder for injection; health posts page 73 lists dispersible tablets 250 mg; patent/proprietary medicine vendor list page 75 lists capsules, dispersible tablets and dry powder for suspension. Keep each section's wording and strengths distinct.",
+    "scoring_notes": "Critical: distinguish the adult list, PHC Health Centres, PHC Clinic, Health Posts and PPMV list; do not conflate their formulations or include amoxicillin plus clavulanic acid."
+  },
+  {
+    "id": "M03",
+    "category": "multi_passage",
+    "question": "What vaccine types and presentations are listed across the adult NEML vaccine section?",
+    "answerable": true,
+    "gold_chunk_ids": [
+      151,
+      152
+    ],
+    "gold_pages": [
+      37
+    ],
+    "expected_answer": "The vaccine section includes BCG, cholera, DPT + hepatitis B + Hib (pentavalent), Haemophilus influenzae type b, HPV, measles, meningococcal meningitis, pneumococcal conjugate, inactivated polio, rabies, rotavirus and rubella vaccines, with presentations specified in the passage.",
+    "scoring_notes": "Synthesize the vaccine entries across both retrieved passages; no external immunization schedule or dosing advice."
+  },
+  {
+    "id": "M04",
+    "category": "multi_passage",
+    "question": "Which anticoagulants are listed in the adult NEML, and what dosage forms are shown?",
+    "answerable": true,
+    "gold_chunk_ids": [
+      160,
+      161
+    ],
+    "gold_pages": [
+      38,
+      39
+    ],
+    "expected_answer": "The adult NEML anticoagulant subsection lists apixaban tablets (2.5 mg and 5 mg), dabigatran capsules (110 mg and 150 mg), enoxaparin injection (1,000 units/mL and 5,000 units/mL), and unfractionated heparin injection (1,000 units/mL and 5,000 units/mL).",
+    "scoring_notes": "Identify all four medicines and their dosage forms for full credit; strengths may be included. Do not classify desmopressin as an anticoagulant. The adjacent page also lists phytomenadione, protamine sulfate, tranexamic acid and warfarin; do not incorrectly describe all entries in the subsection as anticoagulants."
+  },
+  {
+    "id": "M05",
+    "category": "multi_passage",
+    "question": "What contraceptive methods and products are listed in the adult NEML?",
+    "answerable": true,
+    "gold_chunk_ids": [
+      173,
+      174,
+      175,
+      176,
+      177,
+      178
+    ],
+    "gold_pages": [
+      41,
+      42
+    ],
+    "expected_answer": "The adult NEML lists oral hormonal contraceptives (ethinylestradiol with levonorgestrel or norethisterone, and levonorgestrel tablets); injectable hormonal contraceptives (estradiol cypionate plus medroxyprogesterone acetate, medroxyprogesterone acetate intramuscular and subcutaneous injections, and norethisterone enanthate); intrauterine devices (copper-containing and levonorgestrel-releasing); barrier methods (condoms and diaphragms); implantable contraceptives (etonogestrel- and levonorgestrel-releasing implants); and intravaginal contraceptives (ethinylestradiol + etonogestrel vaginal ring and progesterone-releasing vaginal ring).",
+    "scoring_notes": "Summarize methods and named products across the six passages (PDF pages 41–42); do not add methods not listed."
+  },
+  {
+    "id": "P01",
+    "category": "paraphrased",
+    "question": "Which medicines for lowering elevated blood pressure appear in the adult essential medicines list?",
+    "answerable": true,
+    "gold_chunk_ids": [
+      93
+    ],
+    "gold_pages": [
+      28
+    ],
+    "expected_answer": "The antihypertensive medicines listed in the adult NEML are found in the section on pages 28–29; examples include alpha methyl-dopa, amiloride, amlodipine, captopril, enalapril, hydralazine, hydrochlorothiazide, labetalol, nifedipine and valsartan, among others.",
+    "scoring_notes": "Paraphrase of antihypertensive query; evidence should point to pages 28–29."
+  },
+  {
+    "id": "P02",
+    "category": "paraphrased",
+    "question": "Which artemisinin-based combination tablets and strengths are included in the adult NEML?",
+    "answerable": true,
+    "gold_chunk_ids": [
+      55
+    ],
+    "gold_pages": [
+      18
+    ],
+    "expected_answer": "Artemether + lumefantrine tablets: 20 mg + 120 mg; 40 mg + 240 mg; 80 mg + 480 mg. Artesunate + amodiaquine tablets: 25 mg + 67.5 mg; 50 mg + 135 mg; 100 mg + 270 mg. Dihydroartemisinin + piperaquine phosphate tablets: 20 mg + 160 mg and 40 mg + 320 mg.",
+    "scoring_notes": "Question paraphrases the antimalarial section; answer should stay within combinations shown in the cited passages."
+  },
+  {
+    "id": "P03",
+    "category": "paraphrased",
+    "question": "What is the osmolarity and listed composition of oral rehydration salts in the main adult NEML?",
+    "answerable": true,
+    "gold_chunk_ids": [
+      125,
+      164
+    ],
+    "gold_pages": [
+      34,
+      39
+    ],
+    "expected_answer": "Osmolarity: 245 mOsm/L. The listed composition includes glucose 75 mEq or mmol/L, sodium 75 mEq or mmol/L, chloride 65 mEq or mmol/L, potassium 20 mEq or mmol/L and citrate 10 mmol/L; it also gives glucose 13.5 g/L, sodium chloride 2.6 g/L, potassium chloride 1.5 g/L and trisodium citrate dihydrate 2.9 g/L.",
+    "scoring_notes": "Use the main adult NEML oral rehydration salts entry (PDF pages 34 and 39); do not substitute the PHC Health Posts ORS-plus-zinc entry."
+  },
+  {
+    "id": "P04",
+    "category": "paraphrased",
+    "question": "Which medicines for intestinal worm infections and their forms are included in the adult NEML?",
+    "answerable": true,
+    "gold_chunk_ids": [
+      41
+    ],
+    "gold_pages": [
+      14
+    ],
+    "expected_answer": "The intestinal anthelmintics listed include albendazole oral liquid 100 mg/5 mL and tablets 200 mg and 400 mg; mebendazole oral liquid 100 mg/5 mL and tablets 100 mg and 500 mg; pyrantel pamoate capsule 180 mg, oral suspension 250 mg/5 mL and chewable tablet 720.5 mg; and praziquantel tablets 600 mg.",
+    "scoring_notes": "Use the intestinal anthelmintic section only; do not invent treatment regimens."
+  },
+  {
+    "id": "P05",
+    "category": "paraphrased",
+    "question": "What delivery devices and doses are available for the short-acting bronchodilator salbutamol in the adult list?",
+    "answerable": true,
+    "gold_chunk_ids": [
+      155
+    ],
+    "gold_pages": [
+      38
+    ],
+    "expected_answer": "Salbutamol is listed as injection 50 mcg (sulfate)/mL in a 5-mL ampoule; metered-dose inhaler 100 mcg (sulfate) per dose; nebulizer solution 5 mg (sulfate)/mL; and tablet 2 mg.",
+    "scoring_notes": "Paraphrase of salbutamol forms; all forms are in the same passage."
+  },
+  {
+    "id": "U01",
+    "category": "unanswerable",
+    "question": "What is the recommended surgical procedure for treating acute appendicitis?",
+    "answerable": false,
+    "gold_chunk_ids": [],
+    "gold_pages": [],
+    "expected_answer": "I could not find this in the loaded documents.",
+    "scoring_notes": "Exact refusal required."
+  },
+  {
+    "id": "U02",
+    "category": "unanswerable",
+    "question": "What is the recommended operation for removing a cataract?",
+    "answerable": false,
+    "gold_chunk_ids": [],
+    "gold_pages": [],
+    "expected_answer": "I could not find this in the loaded documents.",
+    "scoring_notes": "Exact refusal required; do not infer from ophthalmic medicines."
+  },
+  {
+    "id": "U03",
+    "category": "unanswerable",
+    "question": "What thrombolytic regimen is recommended for acute ischaemic stroke?",
+    "answerable": false,
+    "gold_chunk_ids": [],
+    "gold_pages": [],
+    "expected_answer": "I could not find this in the loaded documents.",
+    "scoring_notes": "Exact refusal required; do not supply external stroke guidance."
+  },
+  {
+    "id": "U04",
+    "category": "unanswerable",
+    "question": "What HbA1c threshold establishes a diagnosis of diabetes mellitus?",
+    "answerable": false,
+    "gold_chunk_ids": [],
+    "gold_pages": [],
+    "expected_answer": "I could not find this in the loaded documents.",
+    "scoring_notes": "Exact refusal required; do not use general diagnostic knowledge."
+  },
+  {
+    "id": "U05",
+    "category": "unanswerable",
+    "question": "What is the recommended surgical treatment for symptomatic gallstones?",
+    "answerable": false,
+    "gold_chunk_ids": [],
+    "gold_pages": [],
+    "expected_answer": "I could not find this in the loaded documents.",
+    "scoring_notes": "Exact refusal required."
+  }
+]
